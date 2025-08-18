@@ -33,5 +33,6 @@ def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
 - 翻转链表(就地做法)有 2 个特性
 - 1.prev 永远指向翻转后的第一个结点(翻转前的最后一个结点)
 - 2.cur 永远指向翻转前的最后一个结点的下个(如果为空则为空)
-  eg(Lc92): 1 2 3 4 5 要翻转 2 3 4-> 4 3 2 最后链表为 1 4 3 2 5
-  则 prev 翻转结束后指向 4,cur 指向 5
+
+eg(Lc92): 1 2 3 4 5 要翻转 2 3 4-> 4 3 2 最后链表为 1 4 3 2 5
+则 prev 翻转结束后指向 4,cur 指向 5
