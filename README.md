@@ -40,8 +40,7 @@ eg(Lc92): 1 2 3 4 5 要翻转 2 3 4-> 4 3 2 最后链表为 1 4 3 2 5
 ## Day16
 
 递归链表其实就是从尾部遍历链表
-[warning]
-不懂必须重新学习
+[warning]不懂必须重新学习
 
 ```python3
 if head.next is None:
